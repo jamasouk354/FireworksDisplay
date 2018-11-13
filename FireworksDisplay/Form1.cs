@@ -28,11 +28,11 @@ namespace FireworksDisplay
 
 
             int grow = 1;
-            int x = this.Width / 2;
+            int x = this.Width / 2 - 5;
             int y = this.Height;
             int fwork = 10;
 
-            while (y > this.Height/2)
+            while (y > this.Height/2 - 10)
             {
                 g.Clear(Color.Black);
                 g.FillRectangle(drawBrush, x, y, fwork, fwork);
